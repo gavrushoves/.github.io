@@ -1,0 +1,33 @@
+.advantages__caption {
+	color: #3b3f6a;
+	font-family: Arvo;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 0.22px;
+}
+.advantages__description {
+	color: #686c8b;
+	font-family: "Noto Sans";
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+}
+.container__caption {
+	color: #3b3f6a;
+	font-family: Arvo;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.45px;
+	text-align: center;
+}
+.advantages {
+	text-align: center;
+	padding-top: 15%;
+}
+img {
+	height: 160px;
+}
+.container {
+	padding-top: 10vh;
+
+}

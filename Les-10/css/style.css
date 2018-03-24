@@ -1,0 +1,147 @@
+body {
+  font-size: 10px;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #9db1b8;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2NhZDlkYyIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuMTkyIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzViNzU4MiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+  /* Android 2.3- hack (needed for the actual radial gradient) */
+  /* Android 2.3 */
+  /* IE10+ */
+  background-image: radial-gradient(ellipse closest-corner at center center, #cad9dc 19.2%, #5b7582 100%);
+  background-image: -ms-radial-gradient(center center, ellipse closest-corner, #cad9dc 19.2%, #5b7582 100%);
+}
+.applique {
+  width: 91.1rem;
+  height: 62.5rem;
+  margin: 50vh auto;
+  -webkit-transform: translateY(-31.25rem);
+          transform: translateY(-31.25rem);
+  border: 0.2rem solid #939393;
+  border-bottom: none;
+  border-right: none;
+}
+.applique__square {
+  display: inline-block;
+  background-color: #110e7c;
+  height: 4.8rem;
+  width: 4.8rem;
+  border: 0.2rem solid #939393;
+  border-left: none;
+  border-top: none;
+  margin-bottom: -0.3rem;
+  margin-top: -0.1rem;
+  margin-left: -0.16rem;
+  margin-right: -0.12rem;
+}
+.applique__square-007,
+.applique__square-008,
+.applique__square-012,
+.applique__square-013,
+.applique__square-021,
+.applique__square-025,
+.applique__square-026,
+.applique__square-029,
+.applique__square-032,
+.applique__square-033,
+.applique__square-037,
+.applique__square-041,
+.applique__square-043,
+.applique__square-044,
+.applique__square-047,
+.applique__square-048,
+.applique__square-049,
+.applique__square-052,
+.applique__square-053,
+.applique__square-055,
+.applique__square-059,
+.applique__square-062,
+.applique__square-065,
+.applique__square-066,
+.applique__square-068,
+.applique__square-069,
+.applique__square-072,
+.applique__square-075,
+.applique__square-083,
+.applique__square-084,
+.applique__square-086,
+.applique__square-088,
+.applique__square-089,
+.applique__square-097,
+.applique__square-101,
+.applique__square-102,
+.applique__square-104,
+.applique__square-105,
+.applique__square-106,
+.applique__square-108,
+.applique__square-109,
+.applique__square-113,
+.applique__square-117,
+.applique__square-119,
+.applique__square-120,
+.applique__square-122,
+.applique__square-123,
+.applique__square-125,
+.applique__square-126,
+.applique__square-128,
+.applique__square-129,
+.applique__square-131,
+.applique__square-135,
+.applique__square-139,
+.applique__square-140,
+.applique__square-142,
+.applique__square-143,
+.applique__square-144,
+.applique__square-146,
+.applique__square-147,
+.applique__square-151,
+.applique__square-159,
+.applique__square-160,
+.applique__square-162,
+.applique__square-164,
+.applique__square-165,
+.applique__square-173,
+.applique__square-176,
+.applique__square-179,
+.applique__square-180,
+.applique__square-182,
+.applique__square-183,
+.applique__square-186,
+.applique__square-189,
+.applique__square-193,
+.applique__square-195,
+.applique__square-196,
+.applique__square-199,
+.applique__square-200,
+.applique__square-201,
+.applique__square-204,
+.applique__square-205,
+.applique__square-207,
+.applique__square-211,
+.applique__square-215,
+.applique__square-216,
+.applique__square-219,
+.applique__square-222,
+.applique__square-223,
+.applique__square-227,
+.applique__square-235,
+.applique__square-236,
+.applique__square-240,
+.applique__square-241 {
+  background-color: #d1e3ec;
+}
+.applique__square-067,
+.applique__square-085,
+.applique__square-087,
+.applique__square-103,
+.applique__square-107,
+.applique__square-121,
+.applique__square-127,
+.applique__square-141,
+.applique__square-145,
+.applique__square-161,
+.applique__square-163,
+.applique__square-181 {
+  background-color: #3db8f5;
+}

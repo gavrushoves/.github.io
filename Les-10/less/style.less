@@ -1,0 +1,166 @@
+@square-gorgeous-color: #3db8f5;
+@square-grey-color: #d1e3ec;
+@square-blue-color:#110e7c;
+@border-color: #939393; 
+
+.square-grey() {
+    background-color: @square-grey-color;
+}
+.square-gorgeous() {
+    background-color: @square-gorgeous-color;
+}
+.gradient() {
+    background-color: #9db1b8;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2NhZDlkYyIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuMTkyIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzViNzU4MiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2NhZDlkYyIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuMTkyIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzViNzU4MiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=),
+        -webkit-gradient(radial, center center, 0, center center, 393,color-stop(0.192, rgb(202, 217, 220)),color-stop(1, rgb(91, 117, 130)));
+    /* Android 2.3 */
+    background-image: -webkit-radial-gradient(center center, ellipse closest-corner,rgb(202, 217, 220) 19.2%,rgb(91, 117, 130) 100%);
+    /* IE10+ */
+    background-image: radial-gradient(ellipse closest-corner at center center,rgb(202, 217, 220) 19.2%,rgb(91, 117, 130) 100%);
+    background-image: -ms-radial-gradient(center center, ellipse closest-corner,rgb(202, 217, 220) 19.2%,rgb(91, 117, 130) 100%);
+}
+ 
+body {
+    font-size: 10px;
+    height: 100vh;
+    box-sizing: border-box;
+   .gradient();    
+}
+.applique {
+    width: 91.1rem;
+    height: 62.5rem;
+    margin: 50vh auto;
+    transform: translateY(-31.25rem);
+    border: 0.2rem solid @border-color;
+    border-bottom: none;
+    border-right: none;
+    &__square {
+        display: inline-block;
+        background-color: @square-blue-color;
+        height: 4.8rem;
+        width: 4.8rem;
+        border: 0.2rem solid @border-color;
+        border-left: none;
+        border-top: none;
+        margin-bottom: -0.3rem;
+        margin-top: -0.1rem;
+        margin-left: -0.16rem;
+        margin-right: -0.12rem;
+        &-007,
+        &-008,
+        &-012,
+        &-013,
+        &-021,
+        &-025,
+        &-026,
+        &-029,
+        &-032,
+        &-033,
+        &-037,
+        &-041,
+        &-043,
+        &-044,
+        &-047,
+        &-048,
+        &-049,
+        &-052,
+        &-053,
+        &-055,
+        &-059,
+        &-062,
+        &-065,
+        &-066,
+        &-068,
+        &-069,
+        &-072,
+        &-075,
+        &-083,
+        &-084,
+        &-086,
+        &-088,
+        &-089,
+        &-097,
+        &-101,
+        &-102,
+        &-104,
+        &-105,
+        &-106,
+        &-108,
+        &-109,
+        &-113,
+        &-117,
+        &-119,
+        &-120,
+        &-122,
+        &-123,
+        &-125,
+        &-126,
+        &-128,
+        &-129,
+        &-131,
+        &-135,
+        &-139,
+        &-140,
+        &-142,
+        &-143,
+        &-144,
+        &-146,
+        &-147,
+        &-151,
+        &-159,
+        &-160,
+        &-162,
+        &-164,
+        &-165,
+        &-173,
+        &-176,
+        &-179,
+        &-180,
+        &-182,
+        &-183,
+        &-186,
+        &-189,
+        &-193,
+        &-195,
+        &-196,
+        &-199,
+        &-200,
+        &-201,
+        &-204,
+        &-205,
+        &-207,
+        &-211,
+        &-215,
+        &-216,
+        &-219,
+        &-222,
+        &-223,
+        &-227,
+        &-235,
+        &-236,
+        &-240,
+        &-241 {
+            .square-grey()
+        }
+        &-067,
+        &-085,
+        &-087,
+        &-103,
+        &-107,
+        &-121,
+        &-127,
+        &-141,
+        &-145,
+        &-161,
+        &-163,
+        &-181 {
+            .square-gorgeous()
+        }
+    }
+}
+
+
+

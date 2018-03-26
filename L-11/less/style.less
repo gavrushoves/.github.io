@@ -1,0 +1,95 @@
+@main-text-color: #692660;
+@content-color: #6F4D1D;
+@btn-bg: #C9FAFB;
+@btn-hover-color: #fff;
+
+/*basic*/
+html {
+	box-sizing: border-box;
+	font-size: 10px;
+}
+body {
+	height: 100vh;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	}
+// mixins
+.content-box() {
+	width: 20rem;
+	height: 20rem;
+	padding-top: 25%;
+	.contant__caption {
+			opacity: 0;
+			transform: translateY(100%) scale(2);
+			transition: all 0.5s;
+		}
+		&:hover .contant__caption{
+			opacity: 1;
+			transform: translateY(0%) scale(1);
+		}
+	&:hover .mask{
+			transform: translateY(-74%) scale(1);
+			transform-origin: 0% 0%;
+			opacity: 1;
+	}
+	.mask {
+			height: 20rem;
+			width: 20rem;
+			background: rgba(110,210,150,.3);
+			transform: translateY(25%) scale(2);
+			opacity: 0;
+			transition: all 1s;
+		}
+}
+
+/* Header*/
+.header {
+	padding-top: 5rem;
+	text-align: center;
+	&__caption {
+		font-size: 4rem;
+		color: @main-text-color;
+	}
+}
+/*Content*/ 
+.content {
+	color: @content-color;
+	padding-top: 5rem;
+	&__box_cat {
+		.content-box();
+		background: url(../img/cat.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	&__box_mountain {
+		.content-box();
+		background: url(../img/mountain.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	&__box_space {
+		.content-box();
+		background: url(../img/space.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	&__box_sunset {
+		.content-box();
+		background: url(../img/sunset.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+.btn {
+	background-color: @btn-bg;
+	border-radius: 2.7rem;
+	padding: 1rem 4rem;
+	box-shadow: 1px 6px 14px rgba(20, 20, 21, 0.09);
+	&:hover {
+		background-color: @btn-hover-color;
+	}
+	a {
+		color: @content-color;
+		padding-left: 2rem;
+		text-decoration: none;
+		a:hover {
+		}
+	}
+}

@@ -1,0 +1,47 @@
+/*basic*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 10px;
+}
+body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+/* Header*/
+.header {
+  padding-top: 5rem;
+  text-align: center;
+}
+.header__link {
+  font-size: 4rem;
+  color: #692660;
+}
+.header a:hover {
+  text-decoration: none;
+}
+.modal-box {
+  width: 25rem;
+  height: 25rem;
+  background: url(../img/sofa.jpg) no-repeat center center;
+  display: none;
+  text-align: right;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.modal-box img {
+  width: 2rem;
+  height: 2rem;
+}
+.modal-box h1 {
+  font-size: 1rem;
+  display: inline-block;
+  color: #251f9d;
+}
+.modal-box:target {
+  display: inline-block;
+}

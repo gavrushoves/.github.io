@@ -1,0 +1,50 @@
+@main-text-color: #692660;
+@content-color: #251F9D;
+
+/*basic*/
+html {
+	box-sizing: border-box;
+	font-size: 10px;
+}
+body {
+	height: 100vh;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	}
+// mixins
+
+/* Header*/
+.header {
+	padding-top: 5rem;
+	text-align: center;
+	&__link {
+		font-size: 4rem;
+		color: @main-text-color;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+}
+.modal-box {
+	width: 25rem;
+	height: 25rem;
+	background: url(../img/sofa.jpg) no-repeat center center;
+	display: none;
+	text-align: right;
+	padding-top: 1rem;
+	margin-top: 1rem;
+	transition: all 1s;
+	img {
+		width: 2rem;
+		height: 2rem;
+	}
+	h1 {
+		font-size: 1rem;
+		display: inline-block;
+		color: @content-color;
+	}
+	&:target {
+		display: inline-block;
+	}
+}

@@ -1,0 +1,61 @@
+@tab-bg-color: #0bbaf0;
+@tab-link-color: #fff;
+@main-title-color: #0bbaf0;
+
+/*basic*/
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+}
+body {
+	height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2rem;
+	font-weight: 400;
+	background: url(../img/main-bg.jpg) center center;
+	background-size: cover;
+	}
+// mixins
+
+ 
+.main-title {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	color: @main-title-color;
+	text-transform: uppercase;
+	display: block;
+	h1 {
+		font-weight: 700;
+		font-size: 3.5rem;
+	}
+	h2 {
+		font-weight: 400;
+		font-size: 2.3rem;
+	}
+}
+.btn-link {
+	width: 100%;
+	height: 100%;
+	color: @tab-link-color;
+	font-size: 2rem;
+	text-decoration: none;
+	&:hover, &:focus {
+		text-decoration: none;
+		color: @tab-link-color;
+	} 
+}
+.card {
+	border:none;
+	&-body {
+		border: 1px solid #dcdcdc;
+		width: 98%;
+		margin-left: 1%;
+		border-bottom-right-radius: 1rem;
+		border-bottom-left-radius: 1rem;
+	}
+}
+.card-header {
+	background-color: @tab-bg-color;
+}

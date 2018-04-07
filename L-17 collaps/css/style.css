@@ -1,0 +1,56 @@
+/*basic*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  background: url(../img/main-bg.jpg) center center;
+  background-size: cover;
+}
+.main-title {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  color: #0bbaf0;
+  text-transform: uppercase;
+  display: block;
+}
+.main-title h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.main-title h2 {
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+.btn-link {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.btn-link:hover,
+.btn-link:focus {
+  text-decoration: none;
+  color: #ffffff;
+}
+.card {
+  border: none;
+}
+.card-body {
+  border: 1px solid #dcdcdc;
+  width: 98%;
+  margin-left: 1%;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.card-header {
+  background-color: #0bbaf0;
+}

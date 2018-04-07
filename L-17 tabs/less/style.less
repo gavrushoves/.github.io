@@ -1,0 +1,129 @@
+@tab-bg-color: #ffffff;
+@tabs-bg-color: #ebebeb;
+@tabs-font-color: #7794aa;
+@tab-active-color: #6b8ba3;
+@button-bg-color: #9edd15;
+
+/*basic*/
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+}
+body {
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	color: @tabs-font-color;
+	background-color: @tabs-bg-color;
+	}
+// mixins
+
+ 
+/*Tabs*/
+.tabs-panel {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 45vw;
+	
+	padding-top: 3rem;
+	padding-left: 4rem;
+
+	.tabs{
+		display: inline-flex;
+		width: 80%;
+		.tab{
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0.8rem 2rem;
+			margin-right: 1rem;
+			border-radius: 0.4rem;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+			background-color: @tab-bg-color;
+			&:hover {
+				cursor: pointer;
+				background-color: @tab-active-color;
+				color: white;
+			}
+			font-size: 1.5rem;
+			color: @tabs-font-color;
+			
+
+		}
+	}
+	.tab-content {
+		width: 90%;
+		display: none;
+		border-top: 1px solid  #d4dee5;
+		&-1 {
+			height: 41vh;
+			display: block;
+			
+		}
+		&-2 {
+			height: 41vh;
+			background-color: red;
+			text-align: center;
+			img {
+				height: 41vh;
+			}
+		}	
+		&-3 {
+			height: 41vh;
+			background-color: @tabs-bg-color;
+		}
+	}
+	.main-form-items {
+		display: inline-flex;
+		flex-direction: column;
+		width: 49.5%;
+		height: 41vh;
+
+		span {
+			font-size: 1.7rem;
+			padding-top: 1.5rem;
+			padding-bottom: 0.8rem;
+			text-transform: uppercase;
+		}
+		input {
+			padding-left: 0.5rem;
+			padding-top:0.8rem;
+			padding-bottom:0.8rem;
+			border-radius: 0.5rem;
+		}
+		button {
+			border-radius: 3rem;
+			width: 80%;
+			background-color: @button-bg-color;
+			margin-top: 2rem;
+			padding: 1rem 1rem;
+			color: white;
+			font-size: 1.4rem;
+			text-transform: uppercase;
+		}
+	}
+	.form-message {
+		padding-left: 1rem;
+		width: 49.5%;
+		display: inline-flex;
+		flex-direction: column;
+
+		span {
+			font-size: 1.7rem;
+			padding-top: 1.5rem;
+			padding-bottom: 0.8rem;
+			text-transform: uppercase;
+		}
+		input {
+			padding-left: 0.5rem;
+			padding-top:0.8rem;
+			padding-bottom:0.8rem;
+			border-radius: 0.5rem;
+			height: 23.5vh;
+		}
+	}
+
+}

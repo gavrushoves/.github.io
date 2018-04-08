@@ -1,0 +1,85 @@
+/*basic*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  background: url(../img/main-bg.jpg) center center;
+  background-size: cover;
+  padding-top: 5rem;
+}
+.container {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: white;
+}
+.container img {
+  height: 44rem;
+  width: 44rem;
+  padding-top: 7rem;
+}
+.container h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.container .header-text {
+  padding-top: 0.5rem;
+  font-size: 2rem;
+}
+.container .bottom-text {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 5rem;
+}
+.container .bottom-text span {
+  color: red;
+  padding-left: 1rem;
+}
+.container form {
+  padding-top: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .form-control {
+  height: 5rem;
+  margin-bottom: 1.2rem;
+  width: 33rem;
+  border: none;
+  border-bottom: 1px solid #888888;
+  border-radius: 0;
+}
+.container .form-control-1 {
+  background: url(../img/name.png) no-repeat center left;
+  padding-left: 3rem;
+}
+.container .form-control-2 {
+  background: url(../img/email.png) no-repeat center left;
+  padding-left: 3rem;
+}
+.container .form-control-3 {
+  background: url(../img/pass.png) no-repeat center left;
+  padding-left: 3rem;
+}
+.container button {
+  margin-top: 4rem;
+  padding: 1rem 5.5rem;
+  border-radius: 5rem;
+  background-color: #82c5c3;
+  border: none;
+  font-size: 1.5rem;
+}

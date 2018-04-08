@@ -1,0 +1,94 @@
+/*basic*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.modal__link_1 {
+  margin: 2rem 2rem;
+  color: white;
+  padding: .5rem 4rem;
+  border-radius: 1rem;
+}
+.modal__link_1:hover,
+.modal__link_1:active,
+.modal__link_1:focus {
+  text-decoration: none;
+  color: white;
+}
+.modal__link_2 {
+  margin-left: 2rem;
+  background: url(../img/телеграм.jpg) no-repeat center center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.modal__link_2 p {
+  color: green;
+  font-size: 3rem;
+  -webkit-transition: display 3s;
+  transition: display 3s;
+  -webkit-transform: translateX(-100vw);
+          transform: translateX(-100vw);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.modal__link_2 .over__bg {
+  height: 90%;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: none;
+}
+.modal__link_2:hover {
+  text-decoration: none;
+}
+.modal__link_2:hover p {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.modal__link_2:hover .over__bg {
+  display: block;
+}
+h5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: blue;
+}
+.modal-title {
+  padding-left: 16rem;
+}
+.modal-body {
+  background-color: blue;
+}
+.modal-footer {
+  background-color: red;
+}
+.modal-footer-2 {
+  background-color: #fff;
+}
+.modal-body-2 {
+  background-color: #fff;
+}
+h1 {
+  color: orange;
+}

@@ -1,0 +1,85 @@
+@tab-bg-color: #0bbaf0;
+@tab-link-color: #fff;
+@main-title-color: #0bbaf0;
+
+/*basic*/
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+}
+body {
+	height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2rem;
+	font-weight: 400;
+} 
+.modal__link_1 {
+    margin: 2rem 2rem;
+    color: white;
+    padding: .5rem 4rem;
+    border-radius: 1rem;
+  &:hover, &:active, &:focus {
+    text-decoration: none;
+    color: white;
+  }
+}
+.modal__link_2 {
+  margin-left: 2rem;
+  background: url(../img/телеграм.jpg) no-repeat center center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  p {
+    color: green;
+    font-size: 3rem;
+    transition: display 3s;
+    transform: translateX(-100vw);
+    transition: all 0.2s;
+  }
+  .over__bg {
+    height: 90%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    display: none;
+  }
+  &:hover {
+    text-decoration: none;
+    p {
+      transform: translateX(0);
+    }
+    .over__bg {
+      display: block;
+    }
+  }
+}
+h5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: blue;
+}
+.modal-title {
+  padding-left: 16rem;
+}
+.modal-body {
+  background-color: blue;
+}
+.modal-footer {
+  background-color: red;
+}
+.modal-footer-2 {
+  background-color: #fff;
+}
+.modal-body-2 {
+  background-color: #fff;
+}
+h1 {
+  color: orange;
+}

@@ -1,0 +1,86 @@
+/*basic*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  position: relative;
+}
+.map {
+  position: absolute;
+}
+.main__form {
+  position: absolute;
+  width: 50rem;
+  height: 40rem;
+  background-color: #4d59a1;
+  top: 50vh;
+  -webkit-transform: translateY(-20rem);
+          transform: translateY(-20rem);
+  right: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main__form form {
+  width: 100%;
+  height: 100%;
+}
+.main__form form .email {
+  width: 80%;
+  height: 4rem;
+  display: inline-block;
+}
+.main__form form .company {
+  width: 40%;
+  height: 4rem;
+  display: inline-block;
+}
+.main__form form .subject {
+  width: 40%;
+  height: 4rem;
+  display: inline-block;
+}
+.main__form form .message {
+  width: 80%;
+}
+.main__form form button {
+  border-radius: 5rem;
+  background-color: #c3f37f;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1.5rem 4.5rem;
+}
+.main__form h2 {
+  font-weight: 700;
+  font-size: 5rem;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+main {
+  position: relative;
+}
+input {
+  border: none;
+  border-radius: .3rem;
+  margin-bottom: 1rem;
+}
+textarea {
+  border: none;
+  border-radius: .3rem;
+  margin-bottom: 1rem;
+}
